@@ -1,0 +1,27 @@
+{
+  "name": "hypertube",
+  "version": "1.0.0",
+  "description": "torrent streaming",
+  "main": "hello.php",
+  "scripts": {
+    "start": "node t.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "knedzing",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "mkdirp": "^0.5.1",
+    "nodemon": "^1.18.6",
+    "opensubtitles-api": "^5.0.0",
+    "options": "0.0.6",
+    "request": "^2.88.0",
+    "srt-to-vtt": "^1.1.3",
+    "subtitler": "^2.6.0",
+    "torrent-stream": "^1.1.0",
+    "yify-subs": "^1.0.0"
+  }
+}
